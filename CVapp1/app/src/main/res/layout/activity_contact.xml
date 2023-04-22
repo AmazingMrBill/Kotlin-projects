@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F4FF"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2F4FF">
+
+
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/group_1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="46dp">
+
+
+        <ImageView
+            android:id="@+id/rect2"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="rect2"
+            android:src="@drawable/rectangle" />
+
+        <ImageView
+            android:id="@+id/rectangle_2_ek1"
+            android:layout_width="132dp"
+            android:layout_height="191dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="rectangle_2_ek1"
+            android:src="@drawable/rectangle_2_ek1" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="146dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="30dp"
+            android:text="Bill\nKimutai"
+            android:textColor="#797B7C"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="146dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="110dp"
+            android:text="Email"
+            android:textColor="#797B7C"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/email2"
+            android:layout_width="146dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="124dp"
+            android:text="williamsonbk47@gmail.com"
+            android:textColor="#797B7C"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tellephone"
+            android:layout_width="146dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="146dp"
+            android:text="Tell"
+            android:textColor="#797B7C"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tellephone2"
+            android:layout_width="146dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="160dp"
+            android:text="+254797837297"
+            android:textColor="#797B7C"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="146dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="182dp"
+            android:text="Address"
+            android:textColor="#797B7C"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/address2"
+            android:layout_width="146dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="149dp"
+            android:layout_marginTop="196dp"
+            android:text="Kitengela, Kajiado"
+            android:textColor="#797B7C"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/group_2"
+        android:layout_width="318dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="46dp">
+
+        <ImageView
+            android:id="@+id/rect1"
+            android:layout_width="318dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="rect1"
+            android:src="@drawable/rectangle" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFF"
+            android:text="About"
+            android:textColor="#49C1F5"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="75dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFF"
+            android:text="Resume"
+            android:textColor="#49C1F5"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="80dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="212dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#49C1F5"
+            android:text="Contact"
+            android:textColor="#FFFF"
+            android:textSize="8sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/group_3"
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="46dp">
+
+        <ImageView
+            android:id="@+id/rectangleBg"
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="rectangle_2_ek1"
+            android:src="@drawable/rectangle" />
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="190dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Professional Background"
+            android:textColor="#797B7C"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="325dp"
+            android:layout_height="215dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:text="Information and Communication Technology student looking to use the understanding of software engineering in programming using various languages. Dedicated student with a passion for capacity building and career development. Able to relate well with different types of people with compassion and ready to work well under instruction and supervision. Very good communication skills and the ability to work within a system while also working independently. Would like to contribute to a successful team as well as develop my career as an ICT expert."
+            android:textColor="#797B7C"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
