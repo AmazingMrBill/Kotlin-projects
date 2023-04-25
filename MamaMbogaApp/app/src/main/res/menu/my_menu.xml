@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/baseline_star_24"
+        android:title="Rate"
+        app:showAsAction="always"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="Share"
+        app:showAsAction="always"
+        >
+    </item>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always"
+        >
+    </item>
+
+    <item
+        android:id="@+id/history"
+        android:title="Categories"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/town"
+        android:title="About us"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+</menu>
